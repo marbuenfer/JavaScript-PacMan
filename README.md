@@ -1,6 +1,6 @@
 # JavaScript-PacMan
 
-Juego sencillo se trabaja con:
+Juego sencillo para practicar con:
 - Elementos del DOM
   - getElementById
   - querySelector
