@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto;
+}
+.caja1,
+.caja2,
+.caja3 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+}
+.contenedor {
+  margin: 0 auto; /*para centrar contenido en el body */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 520px;
+  height: 300px;
+}
+.frontal {
+  background-color: rgb(206, 12, 44);
+  display: flex;
+  margin: 0 auto;
+  width: 432px;
+  height: 195px;
+  border-radius: 8px;
+}
+.cabecera {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buttons {
+  position: relative;
+
+  margin: 20px 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+#buttonStart {
+  margin: 0px 50px 0px;
+  height: 40px;
+  font-size: 1.5em;
+  background: rgb(66, 184, 221);
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#buttonStop {
+  margin: 0px 50px 0px;
+  height: 40px;
+  font-size: 1.5em;
+  color: white;
+  background: rgb(223, 23, 23);
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.message {
+  font-size: 2rem;
+  width: 180px;
+  align-content: center;
+}
