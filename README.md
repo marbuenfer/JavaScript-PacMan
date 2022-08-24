@@ -12,6 +12,8 @@ Juego sencillo para practicar con:
 ## PROCESO
 Se pulsa el botón Start para empezar a generar imágenes aleatorias en cada una de las cajas, el usuario pulsará el botón Stop para parar con la intención de conseguir que en las tres cajas se encuentren las mismas imágenes.
 
+Si se consigue parar y que las tres imágenes sean iguales entonces se muestra el mensaje YOU WIN!!
+
 ## VISTA PREVIA
 
 ![image](https://user-images.githubusercontent.com/66112531/185488889-879284fd-e789-4d7f-baa0-5f985513ccff.png)
